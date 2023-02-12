@@ -2,7 +2,7 @@
 
 namespace ApiFilmes.Data.Dto;
 
-public class CreateFilmeDto
+public class UpdateFilmeDto
 {
     [Required(ErrorMessage = "O titulo do filme é obrigatório.")]
     public string Titulo { get; set; }

@@ -1,4 +1,4 @@
-﻿using ApiFilmes.Dto;
+﻿using ApiFilmes.Data.Dto;
 using ApiFilmes.Models;
 using AutoMapper;
 
@@ -9,5 +9,8 @@ public class FilmeProfile: Profile
     public FilmeProfile()
     {
         CreateMap<CreateFilmeDto, Filme>();
+        CreateMap<UpdateFilmeDto, Filme>();
+        CreateMap<Filme, UpdateFilmeDto>();
+        CreateMap<Filme, ReadFilmeDto>();
     }
 }
