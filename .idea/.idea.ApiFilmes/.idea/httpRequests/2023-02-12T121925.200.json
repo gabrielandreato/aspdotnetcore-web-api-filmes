@@ -1,0 +1,14 @@
+﻿[
+  {
+    "id": 1,
+    "titulo": "Velozes e Furiosos",
+    "genero": "Corrida",
+    "duracao": 115
+  },
+  {
+    "id": 2,
+    "titulo": "Senhor dos anéis",
+    "genero": "Fantasia",
+    "duracao": 270
+  }
+]

@@ -1,0 +1,106 @@
+﻿GET https://localhost:7204/Filme/
+Accept: application/json
+
+<> 2023-02-12T160012.200.json
+
+###
+
+POST https://localhost:7204/Filme/
+Content-Type: application/json
+
+{
+  "titulo": "Harry Potter",
+  "genero": "Fantasia",
+  "duracao": 115
+}
+
+<> 2023-02-12T155945.201.json
+
+###
+
+POST https://localhost:7204/Filme/
+Content-Type: application/json
+{: 
+  "titulo": "Harry Potter",
+  "genero": "Fantasia",
+  "duracao": 115
+}: 
+
+###
+
+POST https://localhost:7204/Filme/
+Accept: application/json
+{: 
+  "titulo": "Harry Potter",
+  "genero": "Fantasia",
+  "duracao": 115
+}: 
+
+###
+
+POST https://localhost:7204/Filme/post
+Accept: application/json
+{: 
+  "titulo": "Harry Potter",
+  "genero": "Fantasia",
+  "duracao": 115
+}: 
+
+###
+
+POST https://localhost:7204/Filme
+Accept: application/json
+{: 
+  "titulo": "Harry Potter",
+  "genero": "Fantasia",
+  "duracao": 115
+}: 
+
+###
+
+GET https://localhost:7204/Filme/1
+Accept: application/json
+
+<> 2023-02-12T122832.200.json
+
+###
+
+GET https://localhost:7204/Filme/2
+Accept: application/json
+
+###
+
+GET https://localhost:7204/Filme/2
+Accept: application/json
+
+###
+
+GET https://localhost:7204/Filme/1
+Accept: application/json
+
+###
+
+GET https://localhost:7204/filme
+Accept: application/json
+
+<> 2023-02-12T121925.200.json
+
+###
+
+GET https://localhost:7204/filme/1/
+Accept: application/json
+
+###
+
+GET https://localhost:7204/filme/1
+Accept: application/json
+
+###
+
+GET https://localhost:7204/filme
+Accept: application/json
+
+<> 2023-02-12T121904.200.json
+
+###
+
