@@ -12,4 +12,4 @@
 2. DB Connection (MySQL)
 3. Utilização de AutoMapper(Context e DTO)
 
-![Imagem do Swagger para exibir o projeto.](img.png)
+![Imagem do Swagger para exibir o projeto](projeto_api_dotnet.png)
