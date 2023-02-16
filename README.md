@@ -13,3 +13,4 @@
 3. Utilização de AutoMapper(Context e DTO)
 
 ![Imagem do Swagger para exibir o projeto](projeto_api_dotnet.png)
+![Certificado](Certificado ASPDotNet Core.png)

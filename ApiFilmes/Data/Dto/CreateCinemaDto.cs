@@ -1,0 +1,9 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ApiFilmes.Data.Dto;
+
+public class CreateCinemaDto
+{
+    [Required(ErrorMessage = "O campo de nome é obrigatório.")]
+    public string Nome { get; set; }
+}

@@ -5,12 +5,21 @@
     <projectFile profileName="IIS Express">ApiFilmes/ApiFilmes.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a50989d6-bd9d-4c18-b258-a2536c1385f6" name="Changes" comment="Put, Patch and delete method implemented">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+    <list default="true" id="a50989d6-bd9d-4c18-b258-a2536c1385f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Controllers/CinemaController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/CreateCinemaDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/ReadCinemaDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/UpdateCinemaDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Migrations/20230214015626_Cinema.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Migrations/20230214015626_Cinema.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Models/Cinema.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Profiles/CinemaProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Certificado ASPDotNet Core.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/dataSources/b593db47-880f-4789-a20c-0fba43f2a9da.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/dataSources/b593db47-880f-4789-a20c-0fba43f2a9da.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiFilmes/ApiFilmes.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/ApiFilmes.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApiFilmes/Controllers/FilmeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Controllers/FilmeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiFilmes/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiFilmes/Data/FilmeContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Data/FilmeContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiFilmes/Migrations/FilmeContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Migrations/FilmeContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f6f390bc246f43f64a19835b0d7e69c2d8f7cd17815f5fcbb145b665bab8/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="HttpClientSelectedEnvironments">
@@ -105,7 +115,8 @@
       <option name="presentableId" value="Default" />
       <updated>1676154454755</updated>
       <workItem from="1676154458659" duration="12329000" />
-      <workItem from="1676230592370" duration="6478000" />
+      <workItem from="1676230592370" duration="7281000" />
+      <workItem from="1676337613228" duration="3578000" />
     </task>
     <task id="LOCAL-00001" summary="Project API Filmes started, Controller with get and post methods implemented, some simple validation and db conection">
       <created>1676230010360</created>
@@ -128,7 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676236376023</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Swagger documentation implemented.">
+      <created>1676237197026</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676237197026</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Project image fixed">
+      <created>1676237295533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676237295533</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +178,8 @@
     <MESSAGE value="Project API Filmes started, Controller with get and post methods implemented, some simple validation and db conection" />
     <MESSAGE value="Filme Profile, DTO and Automapper implemented." />
     <MESSAGE value="Put, Patch and delete method implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Put, Patch and delete method implemented" />
+    <MESSAGE value="Swagger documentation implemented." />
+    <MESSAGE value="Project image fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project image fixed" />
   </component>
 </project>
