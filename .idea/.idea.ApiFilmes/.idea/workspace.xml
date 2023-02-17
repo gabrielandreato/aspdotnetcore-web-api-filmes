@@ -6,21 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a50989d6-bd9d-4c18-b258-a2536c1385f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ApiFilmes/Controllers/CinemaController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/CreateCinemaDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/ReadCinemaDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/UpdateCinemaDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiFilmes/Migrations/20230214015626_Cinema.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiFilmes/Migrations/20230214015626_Cinema.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiFilmes/Models/Cinema.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiFilmes/Profiles/CinemaProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Certificado ASPDotNet Core.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/dataSources/b593db47-880f-4789-a20c-0fba43f2a9da.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/dataSources/b593db47-880f-4789-a20c-0fba43f2a9da.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiFilmes/Controllers/FilmeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Controllers/FilmeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiFilmes/Data/FilmeContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Data/FilmeContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiFilmes/Migrations/FilmeContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Migrations/FilmeContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiFilmes/Controllers/CinemaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Controllers/CinemaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiFilmes/Profiles/CinemaProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Profiles/CinemaProfile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +105,8 @@
       <workItem from="1676154458659" duration="12329000" />
       <workItem from="1676230592370" duration="7281000" />
       <workItem from="1676337613228" duration="3578000" />
+      <workItem from="1676591593211" duration="64000" />
+      <workItem from="1676592050132" duration="2581000" />
     </task>
     <task id="LOCAL-00001" summary="Project API Filmes started, Controller with get and post methods implemented, some simple validation and db conection">
       <created>1676230010360</created>
@@ -153,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676237295533</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Request film method started">
+      <created>1676591647156</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676591647156</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +177,7 @@
     <MESSAGE value="Put, Patch and delete method implemented" />
     <MESSAGE value="Swagger documentation implemented." />
     <MESSAGE value="Project image fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project image fixed" />
+    <MESSAGE value="Request film method started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Request film method started" />
   </component>
 </project>

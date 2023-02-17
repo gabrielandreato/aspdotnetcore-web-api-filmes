@@ -1,6 +1,8 @@
-﻿using ApiFilmes.Data.Dto;
+﻿using System.Collections.Specialized;
+using ApiFilmes.Data.Dto;
 using ApiFilmes.Models;
 using AutoMapper;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiFilmes.Controllers;
@@ -36,11 +38,36 @@ public class CinemaController: ControllerBase
     }
     
     // Implement GetById method.
-    
+    [HttpGet("{id}")]
+    public IActionResult RecuperaCinemaPorID(int id)
+    {
+        var filme = _context.Cinemas.FirstOrDefault(filme => filme.Id == id);
+        if (filme == null) return NotFound();
+        var filmeDto = _mapper.Map<Cinema>(filme);
+        return Ok(filmeDto);
+
+    }
+
     // Implement Update Method.
+    [HttpPut("{id}")]
+    public IActionResult AtualizaCinema(int id, [FromBody] UpdateCinemaDto cinemaDto)
+    {
+        var cinema = _context.Cinemas.FirstOrDefault(cinema => cinema.Id == id);
+        if (cinema == null) return NotFound();
+        _mapper.Map(cinemaDto, cinema);
+        _context.SaveChanges();
+        return NoContent();
+    }
+
     
     // Implement Delete method.
-
-
-
+    [HttpDelete("{id}")]
+    public IActionResult DeletaCinema(int id)
+    {
+        var cinema = _context.Cinemas.FirstOrDefault(cinema => cinema.Id == id);
+        if (cinema == null) return NotFound();
+        _context.Remove(cinema);
+        _context.SaveChanges();
+        return NoContent();
+    }
 }
