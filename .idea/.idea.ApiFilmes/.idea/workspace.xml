@@ -6,9 +6,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a50989d6-bd9d-4c18-b258-a2536c1385f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Controllers/EnderecoController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/CreateEnderecoDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/ReadEnderecoDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/UpdateEnderecoDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Migrations/20230217014840_Endereco e Cinema.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Migrations/20230217014840_Endereco e Cinema.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Models/Endereco.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiFilmes/Profiles/EnderecoProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/dataSources/b593db47-880f-4789-a20c-0fba43f2a9da.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/dataSources/b593db47-880f-4789-a20c-0fba43f2a9da.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApiFilmes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiFilmes/Controllers/CinemaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Controllers/CinemaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiFilmes/Profiles/CinemaProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Profiles/CinemaProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiFilmes/Data/Dto/CreateCinemaDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/CreateCinemaDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiFilmes/Data/Dto/ReadCinemaDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Data/Dto/ReadCinemaDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiFilmes/Data/FilmeContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Data/FilmeContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiFilmes/Migrations/FilmeContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Migrations/FilmeContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiFilmes/Models/Cinema.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiFilmes/Models/Cinema.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Dev/estudo/CSharp/ApiFilmes/ApiFilmes/Controllers/CinemaController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f6f390bc246f43f64a19835b0d7e69c2d8f7cd17815f5fcbb145b665bab8/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -37,23 +50,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ApiFilmes">
     <configuration name="All in rest-api" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
       <method v="2" />
@@ -106,7 +119,7 @@
       <workItem from="1676230592370" duration="7281000" />
       <workItem from="1676337613228" duration="3578000" />
       <workItem from="1676591593211" duration="64000" />
-      <workItem from="1676592050132" duration="2581000" />
+      <workItem from="1676592050132" duration="5995000" />
     </task>
     <task id="LOCAL-00001" summary="Project API Filmes started, Controller with get and post methods implemented, some simple validation and db conection">
       <created>1676230010360</created>
@@ -150,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676591647156</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cinema Controller completed">
+      <created>1676596491301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676596491301</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +198,7 @@
     <MESSAGE value="Swagger documentation implemented." />
     <MESSAGE value="Project image fixed" />
     <MESSAGE value="Request film method started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Request film method started" />
+    <MESSAGE value="Cinema Controller completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cinema Controller completed" />
   </component>
 </project>
